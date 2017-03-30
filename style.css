@@ -1,0 +1,150 @@
+html,
+body {
+  background-image: linear-gradient(to right, black 10%, purple 60%);
+  padding: 0;
+  margin: 0;
+  font-family: 'Overlock', cursive;
+}
+
+
+/*Static munkerDesigns header*/
+
+.mono {
+  font-family: 'Source Code Pro';
+  margin: 10px 0 0 10px;
+}
+
+header {
+  background: transparent;
+}
+
+.munkerDesigns {
+  text-decoration: none;
+  color: #fff;
+}
+
+.munkerDesigns:hover {
+  text-decoration: none;
+  text-shadow: 0 0 5px #000;
+  color: #ccc;
+}
+
+#fcc-logo {
+  margin-right: 100px;
+}
+
+
+/*end Header styles*/
+
+#searches {
+  color: #fff;
+}
+
+#searches a {
+  color: #fff;
+}
+
+#searches li {
+  margin-top: 5px;
+}
+
+#searches a:hover {
+  text-decoration: none;
+}
+
+#searches li a div {
+  padding: 10px;
+  border-left: 10px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-top: 2px solid transparent;
+  border-radius: 30px;
+}
+
+#searches li a div:hover {
+  border-left: 10px solid purple;
+  border-bottom: 2px solid purple;
+  border-top: 2px solid purple;
+  border-radius: 30px;
+}
+
+#searches {
+  list-style: none;
+}
+
+#searches ul li {
+  margin-top: 15px;
+}
+
+#searches p {
+  font-size: 16px;
+}
+
+#search-form {
+  margin-top: 50px;
+}
+
+#search-input:focus,
+#search-button:focus,
+#clear-button:focus,
+#random-button:focus {
+  outline: none;
+}
+
+#search-input,
+#search-button,
+#clear-button,
+#random-button {
+  margin: 2px;
+}
+
+#search-button,
+#clear-button,
+#random-button {
+  padding: 5px;
+  width: 75px;
+  font-size: 18px;
+  border-radius: 10px;
+  background: transparent;
+  box-shadow: 0 0 3px #fff;
+  color: #fff;
+}
+
+#search-button:hover,
+#clear-button:hover,
+#random-button:hover {
+  box-shadow: inset 0 0 6px #fff;
+}
+
+#random-button {
+  width: 175px;
+  margin-left: 0;
+  position: relative;
+  z-index: 1;
+}
+
+#search-input {
+  background: transparent;
+  border-radius: 10px;
+  width: 175px;
+  font-size: 18px;
+  color: #fff;
+  padding: 5px 5px 5px 12px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 5px #fff;
+}
+
+#wiki-logo {
+  width: 175px;
+  margin-top: -90px;
+  position: relative;
+  z-index: 0;
+}
+
+#wiki-logo-xs-div {
+  text-align: center;
+}
+
+#wiki-logo-xs {
+  width: 160px;
+  margin-top: -10px
+}
